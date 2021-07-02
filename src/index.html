@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>3d particles</title>
   <link href="./style.css" rel="stylesheet" />
 </head>
+<style>
+  .container {
+    height: 100vh;
+  }
+
+  canvas {
+    transform: scale(.5) translateX(-50%) translateY(-50%)
+  }
+
+  .red {
+    /* background-color: red; */
+  }
+
+  .btn {
+    color: azure;
+  }
+</style>
+
 <body>
+  <div class="container red">
+    <div class="btn">
+      click
+    </div>
+
+  </div>
+  <div class="container">
+
+  </div>
   <script src="index.js"></script>
 </body>
+
 </html>
